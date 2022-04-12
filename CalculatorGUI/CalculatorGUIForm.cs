@@ -15,10 +15,34 @@ namespace CalculatorGUI
       {
          InitializeComponent();
       }
-
+        int functionType;//the type of function that has been selected
+        double Input1;
+        double Input2;
         private void CalculatorGUIForm_Load(object sender, EventArgs e)
         {
 
+        }
+        private void Equals_Click(object sender, EventArgs e)
+        {
+            double Placeholder;
+            switch (functionType)
+            {
+                case (0)://no function selected
+
+                    break;
+                case (1): //addition
+                    Input2 = double.Parse(textBox1.Text);
+                    Placeholder = Input1 + Input2;
+                    textBox1.Text = Placeholder.ToString();
+                    break;
+                case (2): //subtraction
+                    Input2 = double.Parse(textBox1.Text);
+                    MessageBox.Show($"The numbers subtracted is: {Input1 - Input2}");
+                    break;
+            }
+            Input1 = 0;
+            Input2 = 0;
+            functionType = 0;
         }
 
         private void NumZero_Click(object sender, EventArgs e)
@@ -76,6 +100,33 @@ namespace CalculatorGUI
             textBox1.Text += ".";
         }
 
+        private void Addition_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                functionType = 1;
+                Input1 = double.Parse(textBox1.Text);
+                textBox1.Clear();
+            }
+            catch (FormatException invalidInput)
+            {
+                MessageBox.Show("Invalid input!");
+                return;
+            }
+        }
+
+        private void Subtraction_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+            }
+            catch (FormatException invalidInput)
+            {
+                MessageBox.Show("Invalid input!");
+                return;
+            }
+        }
         private void Divide_Click(object sender, EventArgs e)
         {
             try
@@ -100,37 +151,6 @@ namespace CalculatorGUI
                 MessageBox.Show("Invalid input!");
                 return;
             }
-        }
-
-        private void Addition_Click(object sender, EventArgs e)
-        {
-            try
-            {
-
-            }
-            catch (FormatException invalidInput)
-            {
-                MessageBox.Show("Invalid input!");
-                return;
-            }
-        }
-
-        private void Subtraction_Click(object sender, EventArgs e)
-        {
-            try
-            {
-
-            }
-            catch (FormatException invalidInput)
-            {
-                MessageBox.Show("Invalid input!");
-                return;
-            }
-        }
-
-        private void Equals_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void RemoveSpaces_Click(object sender, EventArgs e)
