@@ -23,12 +23,12 @@ namespace CalculatorGUI
 
         private void NumZero_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void NumOne_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void NumTwo_Click(object sender, EventArgs e)
@@ -73,26 +73,61 @@ namespace CalculatorGUI
 
         private void Divide_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (FormatException invalidInput)
+            {
+                MessageBox.Show("Invalid input!");
+                return;
+            }
         }
 
         private void Multiply_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (FormatException invalidInput)
+            {
+                MessageBox.Show("Invalid input!");
+                return;
+            }
         }
 
         private void Addition_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (FormatException invalidInput)
+            {
+                MessageBox.Show("Invalid input!");
+                return;
+            }
         }
+
         private void Subtraction_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (FormatException invalidInput)
+            {
+                MessageBox.Show("Invalid input!");
+                return;
+            }
         }
+
         private void Equals_Click(object sender, EventArgs e)
         {
 
         }
+
         private void Decimal_Click(object sender, EventArgs e)
         {
 
@@ -100,47 +135,110 @@ namespace CalculatorGUI
 
         private void RemoveSpaces_Click(object sender, EventArgs e)
         {
-
+            string placeholder = textBox1.Text;
+            placeholder = placeholder.Replace(" ", "");
+            MessageBox.Show($"The input without spaces is: {placeholder}");
         }
 
         private void ReverseString_Click(object sender, EventArgs e)
         {
-
+            string placeholder = textBox1.Text;
+            char[] charArray = placeholder.ToCharArray();
+            Array.Reverse(charArray);
+            placeholder = String.Concat(charArray);
+            MessageBox.Show($"The input reversed is: {placeholder}");
         }
 
         private void QuotientRemainder_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                
+            }
+            catch(FormatException invalidInput)
+            {
+                MessageBox.Show("Invalid input!");
+                return;
+            }
+            
         }
 
         private void Log10_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (FormatException invalidInput)
+            {
+                MessageBox.Show("Invalid input!");
+                return;
+            }
         }
 
         private void LogX_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (FormatException invalidInput)
+            {
+                MessageBox.Show("Invalid input!");
+                return;
+            }
         }
 
         private void MinMax_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (FormatException invalidInput)
+            {
+                MessageBox.Show("Invalid input!");
+                return;
+            }
         }
 
         private void ToThePower_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (FormatException invalidInput)
+            {
+                MessageBox.Show("Invalid input!");
+                return;
+            }
         }
 
         private void QuadraticRoots_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (FormatException invalidInput)
+            {
+                MessageBox.Show("Invalid input!");
+                return;
+            }
         }
 
         private void SquareRoot_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (FormatException invalidInput)
+            {
+                MessageBox.Show("Invalid input!");
+                return;
+            }
         }
 
     }
