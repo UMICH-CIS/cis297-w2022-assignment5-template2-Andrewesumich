@@ -23,52 +23,57 @@ namespace CalculatorGUI
 
         private void NumZero_Click(object sender, EventArgs e)
         {
-            
+            textBox1.Text += "0";
         }
 
         private void NumOne_Click(object sender, EventArgs e)
         {
-            
+            textBox1.Text += "1";
         }
 
         private void NumTwo_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text += "2";
         }
 
         private void NumThree_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text += "3";
         }
 
         private void NumFour_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text += "4";
         }
 
         private void NumFive_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text += "5";
         }
 
         private void NumSix_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text += "6";
         }
 
         private void NumSeven_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text += "7";
         }
 
         private void NumEight_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text += "8";
         }
 
         private void NumNine_Click(object sender, EventArgs e)
         {
+            textBox1.Text += "9";
+        }
 
+        private void Decimal_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += ".";
         }
 
         private void Divide_Click(object sender, EventArgs e)
@@ -124,11 +129,6 @@ namespace CalculatorGUI
         }
 
         private void Equals_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Decimal_Click(object sender, EventArgs e)
         {
 
         }
