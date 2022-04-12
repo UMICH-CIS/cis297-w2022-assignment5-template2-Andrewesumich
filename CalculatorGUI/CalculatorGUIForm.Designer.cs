@@ -28,326 +28,372 @@
       /// </summary>
       private void InitializeComponent()
       {
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Equals = new System.Windows.Forms.Button();
+            this.Decimal = new System.Windows.Forms.Button();
+            this.NumZero = new System.Windows.Forms.Button();
+            this.Addition = new System.Windows.Forms.Button();
+            this.NumThree = new System.Windows.Forms.Button();
+            this.NumTwo = new System.Windows.Forms.Button();
+            this.NumOne = new System.Windows.Forms.Button();
+            this.Multiply = new System.Windows.Forms.Button();
+            this.NumSix = new System.Windows.Forms.Button();
+            this.NumFive = new System.Windows.Forms.Button();
+            this.NumFour = new System.Windows.Forms.Button();
+            this.NumNine = new System.Windows.Forms.Button();
+            this.NumEight = new System.Windows.Forms.Button();
+            this.NumSeven = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
+            this.ReverseString = new System.Windows.Forms.Button();
+            this.QuotientRemainder = new System.Windows.Forms.Button();
+            this.QuadraticRoots = new System.Windows.Forms.Button();
+            this.MinMax = new System.Windows.Forms.Button();
+            this.ToThePower = new System.Windows.Forms.Button();
+            this.SquareRoot = new System.Windows.Forms.Button();
+            this.RemoveSpaces = new System.Windows.Forms.Button();
+            this.Log10 = new System.Windows.Forms.Button();
+            this.LogX = new System.Windows.Forms.Button();
+            this.Divide = new System.Windows.Forms.Button();
+            this.Subtraction = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button13
+            // Equals
             // 
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button13.Location = new System.Drawing.Point(189, 180);
-            this.button13.Margin = new System.Windows.Forms.Padding(0);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(63, 50);
-            this.button13.TabIndex = 33;
-            this.button13.Text = "-";
-            this.button13.Click += new System.EventHandler(this.button13_Click);
+            this.Equals.AccessibleName = "Equals";
+            this.Equals.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Equals.Location = new System.Drawing.Point(126, 180);
+            this.Equals.Margin = new System.Windows.Forms.Padding(0);
+            this.Equals.Name = "Equals";
+            this.Equals.Size = new System.Drawing.Size(63, 50);
+            this.Equals.TabIndex = 32;
+            this.Equals.Text = "=";
+            this.Equals.Click += new System.EventHandler(this.Equals_Click);
             // 
-            // button14
+            // Decimal
             // 
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button14.Location = new System.Drawing.Point(126, 180);
-            this.button14.Margin = new System.Windows.Forms.Padding(0);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(63, 50);
-            this.button14.TabIndex = 32;
-            this.button14.Text = "=";
+            this.Decimal.AccessibleName = "Decimal";
+            this.Decimal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Decimal.Location = new System.Drawing.Point(63, 180);
+            this.Decimal.Margin = new System.Windows.Forms.Padding(0);
+            this.Decimal.Name = "Decimal";
+            this.Decimal.Size = new System.Drawing.Size(63, 50);
+            this.Decimal.TabIndex = 31;
+            this.Decimal.Text = ".";
+            this.Decimal.Click += new System.EventHandler(this.Decimal_Click);
             // 
-            // button15
+            // NumZero
             // 
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button15.Location = new System.Drawing.Point(63, 180);
-            this.button15.Margin = new System.Windows.Forms.Padding(0);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(63, 50);
-            this.button15.TabIndex = 31;
-            this.button15.Text = ".";
+            this.NumZero.AccessibleName = "NumZero";
+            this.NumZero.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.NumZero.Location = new System.Drawing.Point(0, 180);
+            this.NumZero.Margin = new System.Windows.Forms.Padding(0);
+            this.NumZero.Name = "NumZero";
+            this.NumZero.Size = new System.Drawing.Size(63, 50);
+            this.NumZero.TabIndex = 30;
+            this.NumZero.Text = "0";
+            this.NumZero.Click += new System.EventHandler(this.NumZero_Click);
             // 
-            // button16
+            // Addition
             // 
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button16.Location = new System.Drawing.Point(0, 180);
-            this.button16.Margin = new System.Windows.Forms.Padding(0);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(63, 50);
-            this.button16.TabIndex = 30;
-            this.button16.Text = "0";
+            this.Addition.AccessibleName = "Addition";
+            this.Addition.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Addition.Location = new System.Drawing.Point(189, 130);
+            this.Addition.Margin = new System.Windows.Forms.Padding(0);
+            this.Addition.Name = "Addition";
+            this.Addition.Size = new System.Drawing.Size(63, 50);
+            this.Addition.TabIndex = 29;
+            this.Addition.Text = "+";
+            this.Addition.Click += new System.EventHandler(this.Addition_Click);
             // 
-            // button9
+            // NumThree
             // 
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button9.Location = new System.Drawing.Point(189, 130);
-            this.button9.Margin = new System.Windows.Forms.Padding(0);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(63, 50);
-            this.button9.TabIndex = 29;
-            this.button9.Text = "+";
+            this.NumThree.AccessibleName = "NumThree";
+            this.NumThree.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.NumThree.Location = new System.Drawing.Point(126, 130);
+            this.NumThree.Margin = new System.Windows.Forms.Padding(0);
+            this.NumThree.Name = "NumThree";
+            this.NumThree.Size = new System.Drawing.Size(63, 50);
+            this.NumThree.TabIndex = 28;
+            this.NumThree.Text = "3";
+            this.NumThree.Click += new System.EventHandler(this.NumThree_Click);
             // 
-            // button10
+            // NumTwo
             // 
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button10.Location = new System.Drawing.Point(126, 130);
-            this.button10.Margin = new System.Windows.Forms.Padding(0);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(63, 50);
-            this.button10.TabIndex = 28;
-            this.button10.Text = "3";
+            this.NumTwo.AccessibleName = "NumTwo";
+            this.NumTwo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.NumTwo.Location = new System.Drawing.Point(63, 130);
+            this.NumTwo.Margin = new System.Windows.Forms.Padding(0);
+            this.NumTwo.Name = "NumTwo";
+            this.NumTwo.Size = new System.Drawing.Size(63, 50);
+            this.NumTwo.TabIndex = 27;
+            this.NumTwo.Text = "2";
+            this.NumTwo.Click += new System.EventHandler(this.NumTwo_Click);
             // 
-            // button11
+            // NumOne
             // 
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button11.Location = new System.Drawing.Point(63, 130);
-            this.button11.Margin = new System.Windows.Forms.Padding(0);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(63, 50);
-            this.button11.TabIndex = 27;
-            this.button11.Text = "2";
+            this.NumOne.AccessibleName = "NumOne";
+            this.NumOne.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.NumOne.Location = new System.Drawing.Point(0, 130);
+            this.NumOne.Margin = new System.Windows.Forms.Padding(0);
+            this.NumOne.Name = "NumOne";
+            this.NumOne.Size = new System.Drawing.Size(63, 50);
+            this.NumOne.TabIndex = 26;
+            this.NumOne.Text = "1";
+            this.NumOne.Click += new System.EventHandler(this.NumOne_Click);
             // 
-            // button12
+            // Multiply
             // 
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button12.Location = new System.Drawing.Point(0, 130);
-            this.button12.Margin = new System.Windows.Forms.Padding(0);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(63, 50);
-            this.button12.TabIndex = 26;
-            this.button12.Text = "1";
+            this.Multiply.AccessibleName = "Multiply";
+            this.Multiply.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Multiply.Location = new System.Drawing.Point(189, 80);
+            this.Multiply.Margin = new System.Windows.Forms.Padding(0);
+            this.Multiply.Name = "Multiply";
+            this.Multiply.Size = new System.Drawing.Size(63, 50);
+            this.Multiply.TabIndex = 25;
+            this.Multiply.Text = "*";
+            this.Multiply.Click += new System.EventHandler(this.Multiply_Click);
             // 
-            // button5
+            // NumSix
             // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Location = new System.Drawing.Point(189, 80);
-            this.button5.Margin = new System.Windows.Forms.Padding(0);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(63, 50);
-            this.button5.TabIndex = 25;
-            this.button5.Text = "*";
+            this.NumSix.AccessibleName = "NumSix";
+            this.NumSix.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.NumSix.Location = new System.Drawing.Point(126, 80);
+            this.NumSix.Margin = new System.Windows.Forms.Padding(0);
+            this.NumSix.Name = "NumSix";
+            this.NumSix.Size = new System.Drawing.Size(63, 50);
+            this.NumSix.TabIndex = 24;
+            this.NumSix.Text = "6";
+            this.NumSix.Click += new System.EventHandler(this.NumSix_Click);
             // 
-            // button6
+            // NumFive
             // 
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.Location = new System.Drawing.Point(126, 80);
-            this.button6.Margin = new System.Windows.Forms.Padding(0);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(63, 50);
-            this.button6.TabIndex = 24;
-            this.button6.Text = "6";
+            this.NumFive.AccessibleName = "NumFive";
+            this.NumFive.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.NumFive.Location = new System.Drawing.Point(63, 80);
+            this.NumFive.Margin = new System.Windows.Forms.Padding(0);
+            this.NumFive.Name = "NumFive";
+            this.NumFive.Size = new System.Drawing.Size(63, 50);
+            this.NumFive.TabIndex = 23;
+            this.NumFive.Text = "5";
+            this.NumFive.Click += new System.EventHandler(this.NumFive_Click);
             // 
-            // button7
+            // NumFour
             // 
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button7.Location = new System.Drawing.Point(63, 80);
-            this.button7.Margin = new System.Windows.Forms.Padding(0);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(63, 50);
-            this.button7.TabIndex = 23;
-            this.button7.Text = "5";
+            this.NumFour.AccessibleName = "NumFour";
+            this.NumFour.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.NumFour.Location = new System.Drawing.Point(0, 80);
+            this.NumFour.Margin = new System.Windows.Forms.Padding(0);
+            this.NumFour.Name = "NumFour";
+            this.NumFour.Size = new System.Drawing.Size(63, 50);
+            this.NumFour.TabIndex = 22;
+            this.NumFour.Text = "4";
+            this.NumFour.Click += new System.EventHandler(this.NumFour_Click);
             // 
-            // button8
+            // NumNine
             // 
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Location = new System.Drawing.Point(0, 80);
-            this.button8.Margin = new System.Windows.Forms.Padding(0);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(63, 50);
-            this.button8.TabIndex = 22;
-            this.button8.Text = "4";
+            this.NumNine.AccessibleName = "NumNine";
+            this.NumNine.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.NumNine.Location = new System.Drawing.Point(126, 30);
+            this.NumNine.Margin = new System.Windows.Forms.Padding(0);
+            this.NumNine.Name = "NumNine";
+            this.NumNine.Size = new System.Drawing.Size(63, 50);
+            this.NumNine.TabIndex = 20;
+            this.NumNine.Text = "9";
+            this.NumNine.Click += new System.EventHandler(this.NumNine_Click);
             // 
-            // button4
+            // NumEight
             // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Location = new System.Drawing.Point(189, 30);
-            this.button4.Margin = new System.Windows.Forms.Padding(0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(63, 50);
-            this.button4.TabIndex = 21;
-            this.button4.Text = "/";
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.NumEight.AccessibleName = "NumEight";
+            this.NumEight.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.NumEight.Location = new System.Drawing.Point(63, 30);
+            this.NumEight.Margin = new System.Windows.Forms.Padding(0);
+            this.NumEight.Name = "NumEight";
+            this.NumEight.Size = new System.Drawing.Size(63, 50);
+            this.NumEight.TabIndex = 19;
+            this.NumEight.Text = "8";
+            this.NumEight.Click += new System.EventHandler(this.NumEight_Click);
             // 
-            // button3
+            // NumSeven
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Location = new System.Drawing.Point(126, 30);
-            this.button3.Margin = new System.Windows.Forms.Padding(0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(63, 50);
-            this.button3.TabIndex = 20;
-            this.button3.Text = "9";
-            // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Location = new System.Drawing.Point(63, 30);
-            this.button2.Margin = new System.Windows.Forms.Padding(0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(63, 50);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "8";
-            // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(0, 30);
-            this.button1.Margin = new System.Windows.Forms.Padding(0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(63, 50);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "7";
+            this.NumSeven.AccessibleName = "NumSeven";
+            this.NumSeven.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.NumSeven.Location = new System.Drawing.Point(0, 30);
+            this.NumSeven.Margin = new System.Windows.Forms.Padding(0);
+            this.NumSeven.Name = "NumSeven";
+            this.NumSeven.Size = new System.Drawing.Size(63, 50);
+            this.NumSeven.TabIndex = 18;
+            this.NumSeven.Text = "7";
+            this.NumSeven.Click += new System.EventHandler(this.NumSeven_Click);
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(0, 1);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(315, 26);
+            this.textBox1.Size = new System.Drawing.Size(441, 26);
             this.textBox1.TabIndex = 17;
             // 
-            // button17
+            // ReverseString
             // 
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button17.Location = new System.Drawing.Point(252, 30);
-            this.button17.Margin = new System.Windows.Forms.Padding(0);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(63, 50);
-            this.button17.TabIndex = 34;
-            this.button17.Text = "a-b";
+            this.ReverseString.AccessibleName = "ReverseString";
+            this.ReverseString.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ReverseString.Location = new System.Drawing.Point(252, 80);
+            this.ReverseString.Margin = new System.Windows.Forms.Padding(0);
+            this.ReverseString.Name = "ReverseString";
+            this.ReverseString.Size = new System.Drawing.Size(63, 50);
+            this.ReverseString.TabIndex = 35;
+            this.ReverseString.Text = "b a";
+            this.ReverseString.Click += new System.EventHandler(this.ReverseString_Click);
             // 
-            // button18
+            // QuotientRemainder
             // 
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button18.Location = new System.Drawing.Point(252, 80);
-            this.button18.Margin = new System.Windows.Forms.Padding(0);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(63, 50);
-            this.button18.TabIndex = 35;
-            this.button18.Text = "b a";
+            this.QuotientRemainder.AccessibleName = "QuotientRemainder";
+            this.QuotientRemainder.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.QuotientRemainder.Location = new System.Drawing.Point(252, 130);
+            this.QuotientRemainder.Margin = new System.Windows.Forms.Padding(0);
+            this.QuotientRemainder.Name = "QuotientRemainder";
+            this.QuotientRemainder.Size = new System.Drawing.Size(63, 50);
+            this.QuotientRemainder.TabIndex = 36;
+            this.QuotientRemainder.Text = "%";
+            this.QuotientRemainder.Click += new System.EventHandler(this.QuotientRemainder_Click);
             // 
-            // button19
+            // QuadraticRoots
             // 
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button19.Location = new System.Drawing.Point(252, 130);
-            this.button19.Margin = new System.Windows.Forms.Padding(0);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(63, 50);
-            this.button19.TabIndex = 36;
-            this.button19.Text = "%";
+            this.QuadraticRoots.AccessibleName = "QuadraticRoots";
+            this.QuadraticRoots.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.QuadraticRoots.Location = new System.Drawing.Point(315, 180);
+            this.QuadraticRoots.Margin = new System.Windows.Forms.Padding(0);
+            this.QuadraticRoots.Name = "QuadraticRoots";
+            this.QuadraticRoots.Size = new System.Drawing.Size(63, 50);
+            this.QuadraticRoots.TabIndex = 39;
+            this.QuadraticRoots.Text = "root";
+            this.QuadraticRoots.Click += new System.EventHandler(this.QuadraticRoots_Click);
             // 
-            // button20
+            // MinMax
             // 
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button20.Location = new System.Drawing.Point(252, 180);
-            this.button20.Margin = new System.Windows.Forms.Padding(0);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(63, 50);
-            this.button20.TabIndex = 37;
-            this.button20.Text = "log";
-            this.button20.Click += new System.EventHandler(this.button20_Click);
+            this.MinMax.AccessibleName = "MinMax";
+            this.MinMax.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.MinMax.Location = new System.Drawing.Point(315, 80);
+            this.MinMax.Margin = new System.Windows.Forms.Padding(0);
+            this.MinMax.Name = "MinMax";
+            this.MinMax.Size = new System.Drawing.Size(63, 50);
+            this.MinMax.TabIndex = 39;
+            this.MinMax.Text = "a>b";
+            this.MinMax.Click += new System.EventHandler(this.MinMax_Click);
             // 
-            // button21
+            // ToThePower
             // 
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button21.Location = new System.Drawing.Point(315, 30);
-            this.button21.Margin = new System.Windows.Forms.Padding(0);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(63, 50);
-            this.button21.TabIndex = 38;
-            this.button21.Text = "logx";
-            this.button21.Click += new System.EventHandler(this.button21_Click);
+            this.ToThePower.AccessibleName = "ToThePower";
+            this.ToThePower.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ToThePower.Location = new System.Drawing.Point(315, 130);
+            this.ToThePower.Margin = new System.Windows.Forms.Padding(0);
+            this.ToThePower.Name = "ToThePower";
+            this.ToThePower.Size = new System.Drawing.Size(63, 50);
+            this.ToThePower.TabIndex = 40;
+            this.ToThePower.Text = "a^b";
+            this.ToThePower.Click += new System.EventHandler(this.ToThePower_Click);
             // 
-            // button22
+            // SquareRoot
             // 
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button22.Location = new System.Drawing.Point(315, 180);
-            this.button22.Margin = new System.Windows.Forms.Padding(0);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(63, 50);
-            this.button22.TabIndex = 39;
-            this.button22.Text = "root";
+            this.SquareRoot.AccessibleName = "SquareRoot";
+            this.SquareRoot.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.SquareRoot.Location = new System.Drawing.Point(378, 30);
+            this.SquareRoot.Margin = new System.Windows.Forms.Padding(0);
+            this.SquareRoot.Name = "SquareRoot";
+            this.SquareRoot.Size = new System.Drawing.Size(63, 50);
+            this.SquareRoot.TabIndex = 41;
+            this.SquareRoot.Text = "√";
+            this.SquareRoot.Click += new System.EventHandler(this.SquareRoot_Click);
             // 
-            // button23
+            // RemoveSpaces
             // 
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button23.Location = new System.Drawing.Point(315, 80);
-            this.button23.Margin = new System.Windows.Forms.Padding(0);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(63, 50);
-            this.button23.TabIndex = 39;
-            this.button23.Text = "a>b";
+            this.RemoveSpaces.AccessibleName = "RemoveSpaces";
+            this.RemoveSpaces.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RemoveSpaces.Location = new System.Drawing.Point(252, 30);
+            this.RemoveSpaces.Margin = new System.Windows.Forms.Padding(0);
+            this.RemoveSpaces.Name = "RemoveSpaces";
+            this.RemoveSpaces.Size = new System.Drawing.Size(63, 50);
+            this.RemoveSpaces.TabIndex = 43;
+            this.RemoveSpaces.Text = "a-b";
+            this.RemoveSpaces.Click += new System.EventHandler(this.RemoveSpaces_Click);
             // 
-            // button24
+            // Log10
             // 
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button24.Location = new System.Drawing.Point(315, 130);
-            this.button24.Margin = new System.Windows.Forms.Padding(0);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(63, 50);
-            this.button24.TabIndex = 40;
-            this.button24.Text = "a^b";
+            this.Log10.AccessibleName = "Log10";
+            this.Log10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Log10.Location = new System.Drawing.Point(252, 180);
+            this.Log10.Margin = new System.Windows.Forms.Padding(0);
+            this.Log10.Name = "Log10";
+            this.Log10.Size = new System.Drawing.Size(63, 50);
+            this.Log10.TabIndex = 44;
+            this.Log10.Text = "log";
+            this.Log10.Click += new System.EventHandler(this.Log10_Click);
             // 
-            // button25
+            // LogX
             // 
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button25.Location = new System.Drawing.Point(378, 30);
-            this.button25.Margin = new System.Windows.Forms.Padding(0);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(63, 50);
-            this.button25.TabIndex = 41;
-            this.button25.Text = "√";
+            this.LogX.AccessibleName = "LogX";
+            this.LogX.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.LogX.Location = new System.Drawing.Point(315, 30);
+            this.LogX.Margin = new System.Windows.Forms.Padding(0);
+            this.LogX.Name = "LogX";
+            this.LogX.Size = new System.Drawing.Size(63, 50);
+            this.LogX.TabIndex = 45;
+            this.LogX.Text = "logx";
+            this.LogX.Click += new System.EventHandler(this.LogX_Click);
+            // 
+            // Divide
+            // 
+            this.Divide.AccessibleName = "Divide";
+            this.Divide.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Divide.Location = new System.Drawing.Point(189, 30);
+            this.Divide.Margin = new System.Windows.Forms.Padding(0);
+            this.Divide.Name = "Divide";
+            this.Divide.Size = new System.Drawing.Size(63, 50);
+            this.Divide.TabIndex = 46;
+            this.Divide.Text = "/";
+            this.Divide.Click += new System.EventHandler(this.Divide_Click);
+            // 
+            // Subtraction
+            // 
+            this.Subtraction.AccessibleName = "Subtraction";
+            this.Subtraction.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Subtraction.Location = new System.Drawing.Point(189, 180);
+            this.Subtraction.Margin = new System.Windows.Forms.Padding(0);
+            this.Subtraction.Name = "Subtraction";
+            this.Subtraction.Size = new System.Drawing.Size(63, 50);
+            this.Subtraction.TabIndex = 47;
+            this.Subtraction.Text = "-";
+            this.Subtraction.Click += new System.EventHandler(this.Subtraction_Click);
             // 
             // CalculatorGUIForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(441, 230);
-            this.Controls.Add(this.button25);
-            this.Controls.Add(this.button24);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Subtraction);
+            this.Controls.Add(this.Divide);
+            this.Controls.Add(this.LogX);
+            this.Controls.Add(this.Log10);
+            this.Controls.Add(this.RemoveSpaces);
+            this.Controls.Add(this.SquareRoot);
+            this.Controls.Add(this.ToThePower);
+            this.Controls.Add(this.MinMax);
+            this.Controls.Add(this.QuadraticRoots);
+            this.Controls.Add(this.QuotientRemainder);
+            this.Controls.Add(this.ReverseString);
+            this.Controls.Add(this.Equals);
+            this.Controls.Add(this.Decimal);
+            this.Controls.Add(this.NumZero);
+            this.Controls.Add(this.Addition);
+            this.Controls.Add(this.NumThree);
+            this.Controls.Add(this.NumTwo);
+            this.Controls.Add(this.NumOne);
+            this.Controls.Add(this.Multiply);
+            this.Controls.Add(this.NumSix);
+            this.Controls.Add(this.NumFive);
+            this.Controls.Add(this.NumFour);
+            this.Controls.Add(this.NumNine);
+            this.Controls.Add(this.NumEight);
+            this.Controls.Add(this.NumSeven);
             this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "CalculatorGUIForm";
@@ -359,33 +405,32 @@
       }
 
       #endregion
-
-      private System.Windows.Forms.Button button13;
-      private System.Windows.Forms.Button button14;
-      private System.Windows.Forms.Button button15;
-      private System.Windows.Forms.Button button16;
-      private System.Windows.Forms.Button button9;
-      private System.Windows.Forms.Button button10;
-      private System.Windows.Forms.Button button11;
-      private System.Windows.Forms.Button button12;
-      private System.Windows.Forms.Button button5;
-      private System.Windows.Forms.Button button6;
-      private System.Windows.Forms.Button button7;
-      private System.Windows.Forms.Button button8;
-      private System.Windows.Forms.Button button4;
-      private System.Windows.Forms.Button button3;
-      private System.Windows.Forms.Button button2;
-      private System.Windows.Forms.Button button1;
+      private System.Windows.Forms.Button Equals;
+      private System.Windows.Forms.Button Decimal;
+      private System.Windows.Forms.Button NumZero;
+      private System.Windows.Forms.Button Addition;
+      private System.Windows.Forms.Button NumThree;
+      private System.Windows.Forms.Button NumTwo;
+      private System.Windows.Forms.Button NumOne;
+      private System.Windows.Forms.Button Multiply;
+      private System.Windows.Forms.Button NumSix;
+      private System.Windows.Forms.Button NumFive;
+      private System.Windows.Forms.Button NumFour;
+      private System.Windows.Forms.Button NumNine;
+      private System.Windows.Forms.Button NumEight;
+      private System.Windows.Forms.Button NumSeven;
       private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button ReverseString;
+        private System.Windows.Forms.Button QuotientRemainder;
+        private System.Windows.Forms.Button QuadraticRoots;
+        private System.Windows.Forms.Button MinMax;
+        private System.Windows.Forms.Button ToThePower;
+        private System.Windows.Forms.Button SquareRoot;
+        private System.Windows.Forms.Button RemoveSpaces;
+        private System.Windows.Forms.Button Log10;
+        private System.Windows.Forms.Button LogX;
+        private System.Windows.Forms.Button Divide;
+        private System.Windows.Forms.Button Subtraction;
     }
 }
 

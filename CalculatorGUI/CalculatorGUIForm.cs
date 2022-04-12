@@ -16,30 +16,133 @@ namespace CalculatorGUI
          InitializeComponent();
       }
 
-        private void button4_Click(object sender, EventArgs e)//divide
-        {
-
-        }
-
         private void CalculatorGUIForm_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void button13_Click(object sender, EventArgs e)//minus
+        private void NumZero_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button20_Click(object sender, EventArgs e)//log 10
+        private void NumOne_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button21_Click(object sender, EventArgs e)//log x
+        private void NumTwo_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void NumThree_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NumFour_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NumFive_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NumSix_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NumSeven_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NumEight_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NumNine_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Divide_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Multiply_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Addition_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void Subtraction_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void Equals_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void Decimal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RemoveSpaces_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ReverseString_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void QuotientRemainder_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Log10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LogX_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MinMax_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ToThePower_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void QuadraticRoots_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SquareRoot_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
 
