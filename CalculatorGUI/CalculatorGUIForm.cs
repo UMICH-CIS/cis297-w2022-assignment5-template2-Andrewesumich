@@ -15,7 +15,32 @@ namespace CalculatorGUI
       {
          InitializeComponent();
       }
-   }
+
+        private void button4_Click(object sender, EventArgs e)//divide
+        {
+
+        }
+
+        private void CalculatorGUIForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button13_Click(object sender, EventArgs e)//minus
+        {
+
+        }
+
+        private void button20_Click(object sender, EventArgs e)//log 10
+        {
+
+        }
+
+        private void button21_Click(object sender, EventArgs e)//log x
+        {
+
+        }
+    }
 }
 
 /**************************************************************************
