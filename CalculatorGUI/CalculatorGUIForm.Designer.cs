@@ -54,6 +54,10 @@
             this.LogX = new System.Windows.Forms.Button();
             this.Divide = new System.Windows.Forms.Button();
             this.Subtraction = new System.Windows.Forms.Button();
+            this.textBoxA = new System.Windows.Forms.TextBox();
+            this.textBoxB = new System.Windows.Forms.TextBox();
+            this.textBoxC = new System.Windows.Forms.TextBox();
+            this.Description = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Equals
@@ -364,11 +368,50 @@
             this.Subtraction.Text = "-";
             this.Subtraction.Click += new System.EventHandler(this.Subtraction_Click);
             // 
+            // textBoxA
+            // 
+            this.textBoxA.Location = new System.Drawing.Point(378, 154);
+            this.textBoxA.Multiline = true;
+            this.textBoxA.Name = "textBoxA";
+            this.textBoxA.Size = new System.Drawing.Size(63, 26);
+            this.textBoxA.TabIndex = 48;
+            // 
+            // textBoxB
+            // 
+            this.textBoxB.Location = new System.Drawing.Point(378, 180);
+            this.textBoxB.Multiline = true;
+            this.textBoxB.Name = "textBoxB";
+            this.textBoxB.Size = new System.Drawing.Size(63, 26);
+            this.textBoxB.TabIndex = 49;
+            // 
+            // textBoxC
+            // 
+            this.textBoxC.Location = new System.Drawing.Point(378, 204);
+            this.textBoxC.Multiline = true;
+            this.textBoxC.Name = "textBoxC";
+            this.textBoxC.Size = new System.Drawing.Size(63, 26);
+            this.textBoxC.TabIndex = 50;
+            // 
+            // Description
+            // 
+            this.Description.AccessibleName = "Description";
+            this.Description.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Description.Location = new System.Drawing.Point(378, 80);
+            this.Description.Margin = new System.Windows.Forms.Padding(0);
+            this.Description.Name = "Description";
+            this.Description.Size = new System.Drawing.Size(63, 74);
+            this.Description.TabIndex = 51;
+            this.Description.Text = "a,b,c \\/";
+            // 
             // CalculatorGUIForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(441, 230);
+            this.Controls.Add(this.Description);
+            this.Controls.Add(this.textBoxC);
+            this.Controls.Add(this.textBoxB);
+            this.Controls.Add(this.textBoxA);
             this.Controls.Add(this.Subtraction);
             this.Controls.Add(this.Divide);
             this.Controls.Add(this.LogX);
@@ -431,6 +474,10 @@
         private System.Windows.Forms.Button LogX;
         private System.Windows.Forms.Button Divide;
         private System.Windows.Forms.Button Subtraction;
+        private System.Windows.Forms.TextBox textBoxA;
+        private System.Windows.Forms.TextBox textBoxB;
+        private System.Windows.Forms.TextBox textBoxC;
+        private System.Windows.Forms.Button Description;
     }
 }
 
