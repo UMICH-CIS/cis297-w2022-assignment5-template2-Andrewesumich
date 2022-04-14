@@ -19,7 +19,7 @@ namespace CalculatorGUI
         double Input1;
         double Input2;
         int intInput1;
-        int intInput2;
+        int intInput2;//for specific functions
         private void CalculatorGUIForm_Load(object sender, EventArgs e)
         {
             textBoxA.Enabled = false;
@@ -113,7 +113,7 @@ namespace CalculatorGUI
             }
             finally//always reset the value in the calculator after an invalid input is detected
             {
-                Input1 = 0;
+                Input1 = 0;//re-enable the buttons and disable the quadratic textboxes
                 Input2 = 0;
                 intInput1 = 0;
                 intInput2 = 0;
@@ -138,7 +138,7 @@ namespace CalculatorGUI
             }
         }
 
-        private void NumZero_Click(object sender, EventArgs e)
+        private void NumZero_Click(object sender, EventArgs e)//add to the textbox
         {
             textBox1.Text += "0";
         }
@@ -193,14 +193,17 @@ namespace CalculatorGUI
             textBox1.Text += ".";
         }
 
+        //All functions that use two values like addition and subtraction require that you use equals
+        //All functions that use one value are finished after the button is pressed (square root)
+
         private void Addition_Click(object sender, EventArgs e)
         {
-            try
+            try//if the textbox has invalid input send error message but keep the program running
             {
-                functionType = 1;
-                Input1 = double.Parse(textBox1.Text);
-                textBox1.Clear();
-                Addition.Enabled = false;//disable other button presses until the first function is finished
+                functionType = 1;//set function type to addition
+                Input1 = double.Parse(textBox1.Text);//read textbox input
+                textBox1.Clear();//clear the box for new input
+                Addition.Enabled = false;//disable other button presses until the first function is finished(in all the buttons)
                 Subtraction.Enabled = false;
                 Divide.Enabled = false;
                 Multiply.Enabled = false;
@@ -452,13 +455,13 @@ namespace CalculatorGUI
         {
             try
             {
-                functionType = 9;
-                textBoxA.Enabled = true;
+                functionType = 9;//set function
+                textBoxA.Enabled = true;//enable the special text boxes
                 textBoxB.Enabled = true;
                 textBoxC.Enabled = true;
                 Addition.Enabled = false;
                 Subtraction.Enabled = false;
-                Divide.Enabled = false;
+                Divide.Enabled = false;//disable other functions
                 Multiply.Enabled = false;
                 RemoveSpaces.Enabled = false;
                 ReverseString.Enabled = false;
@@ -478,7 +481,7 @@ namespace CalculatorGUI
             }
         }
 
-        private void SquareRoot_Click(object sender, EventArgs e)
+        private void SquareRoot_Click(object sender, EventArgs e)//only needs one input so done in click
         {
             try
             {

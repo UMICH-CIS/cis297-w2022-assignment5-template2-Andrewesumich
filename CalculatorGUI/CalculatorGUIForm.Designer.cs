@@ -233,7 +233,7 @@
             this.textBox1.Location = new System.Drawing.Point(0, 1);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(441, 26);
+            this.textBox1.Size = new System.Drawing.Size(629, 26);
             this.textBox1.TabIndex = 17;
             // 
             // ReverseString
@@ -243,9 +243,9 @@
             this.ReverseString.Location = new System.Drawing.Point(252, 80);
             this.ReverseString.Margin = new System.Windows.Forms.Padding(0);
             this.ReverseString.Name = "ReverseString";
-            this.ReverseString.Size = new System.Drawing.Size(63, 50);
+            this.ReverseString.Size = new System.Drawing.Size(126, 50);
             this.ReverseString.TabIndex = 35;
-            this.ReverseString.Text = "b a";
+            this.ReverseString.Text = "ReverseString";
             this.ReverseString.Click += new System.EventHandler(this.ReverseString_Click);
             // 
             // QuotientRemainder
@@ -255,57 +255,57 @@
             this.QuotientRemainder.Location = new System.Drawing.Point(252, 130);
             this.QuotientRemainder.Margin = new System.Windows.Forms.Padding(0);
             this.QuotientRemainder.Name = "QuotientRemainder";
-            this.QuotientRemainder.Size = new System.Drawing.Size(63, 50);
+            this.QuotientRemainder.Size = new System.Drawing.Size(126, 50);
             this.QuotientRemainder.TabIndex = 36;
-            this.QuotientRemainder.Text = "%";
+            this.QuotientRemainder.Text = "QuotientRem";
             this.QuotientRemainder.Click += new System.EventHandler(this.QuotientRemainder_Click);
             // 
             // QuadraticRoots
             // 
             this.QuadraticRoots.AccessibleName = "QuadraticRoots";
             this.QuadraticRoots.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.QuadraticRoots.Location = new System.Drawing.Point(315, 180);
+            this.QuadraticRoots.Location = new System.Drawing.Point(500, 30);
             this.QuadraticRoots.Margin = new System.Windows.Forms.Padding(0);
             this.QuadraticRoots.Name = "QuadraticRoots";
-            this.QuadraticRoots.Size = new System.Drawing.Size(63, 50);
+            this.QuadraticRoots.Size = new System.Drawing.Size(129, 50);
             this.QuadraticRoots.TabIndex = 39;
-            this.QuadraticRoots.Text = "root";
+            this.QuadraticRoots.Text = "QRoot";
             this.QuadraticRoots.Click += new System.EventHandler(this.QuadraticRoots_Click);
             // 
             // MinMax
             // 
             this.MinMax.AccessibleName = "MinMax";
             this.MinMax.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.MinMax.Location = new System.Drawing.Point(315, 80);
+            this.MinMax.Location = new System.Drawing.Point(378, 80);
             this.MinMax.Margin = new System.Windows.Forms.Padding(0);
             this.MinMax.Name = "MinMax";
-            this.MinMax.Size = new System.Drawing.Size(63, 50);
+            this.MinMax.Size = new System.Drawing.Size(122, 50);
             this.MinMax.TabIndex = 39;
-            this.MinMax.Text = "a>b";
+            this.MinMax.Text = "Min Max";
             this.MinMax.Click += new System.EventHandler(this.MinMax_Click);
             // 
             // ToThePower
             // 
             this.ToThePower.AccessibleName = "ToThePower";
             this.ToThePower.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.ToThePower.Location = new System.Drawing.Point(315, 130);
+            this.ToThePower.Location = new System.Drawing.Point(378, 130);
             this.ToThePower.Margin = new System.Windows.Forms.Padding(0);
             this.ToThePower.Name = "ToThePower";
-            this.ToThePower.Size = new System.Drawing.Size(63, 50);
+            this.ToThePower.Size = new System.Drawing.Size(122, 50);
             this.ToThePower.TabIndex = 40;
-            this.ToThePower.Text = "a^b";
+            this.ToThePower.Text = "To the Power";
             this.ToThePower.Click += new System.EventHandler(this.ToThePower_Click);
             // 
             // SquareRoot
             // 
             this.SquareRoot.AccessibleName = "SquareRoot";
             this.SquareRoot.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.SquareRoot.Location = new System.Drawing.Point(378, 30);
+            this.SquareRoot.Location = new System.Drawing.Point(378, 180);
             this.SquareRoot.Margin = new System.Windows.Forms.Padding(0);
             this.SquareRoot.Name = "SquareRoot";
-            this.SquareRoot.Size = new System.Drawing.Size(63, 50);
+            this.SquareRoot.Size = new System.Drawing.Size(122, 50);
             this.SquareRoot.TabIndex = 41;
-            this.SquareRoot.Text = "√";
+            this.SquareRoot.Text = "SquareRoot";
             this.SquareRoot.Click += new System.EventHandler(this.SquareRoot_Click);
             // 
             // RemoveSpaces
@@ -315,9 +315,9 @@
             this.RemoveSpaces.Location = new System.Drawing.Point(252, 30);
             this.RemoveSpaces.Margin = new System.Windows.Forms.Padding(0);
             this.RemoveSpaces.Name = "RemoveSpaces";
-            this.RemoveSpaces.Size = new System.Drawing.Size(63, 50);
+            this.RemoveSpaces.Size = new System.Drawing.Size(126, 50);
             this.RemoveSpaces.TabIndex = 43;
-            this.RemoveSpaces.Text = "a-b";
+            this.RemoveSpaces.Text = "Whitespace";
             this.RemoveSpaces.Click += new System.EventHandler(this.RemoveSpaces_Click);
             // 
             // Log10
@@ -327,21 +327,21 @@
             this.Log10.Location = new System.Drawing.Point(252, 180);
             this.Log10.Margin = new System.Windows.Forms.Padding(0);
             this.Log10.Name = "Log10";
-            this.Log10.Size = new System.Drawing.Size(63, 50);
+            this.Log10.Size = new System.Drawing.Size(126, 50);
             this.Log10.TabIndex = 44;
-            this.Log10.Text = "log";
+            this.Log10.Text = "Log10";
             this.Log10.Click += new System.EventHandler(this.Log10_Click);
             // 
             // LogX
             // 
             this.LogX.AccessibleName = "LogX";
             this.LogX.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.LogX.Location = new System.Drawing.Point(315, 30);
+            this.LogX.Location = new System.Drawing.Point(378, 30);
             this.LogX.Margin = new System.Windows.Forms.Padding(0);
             this.LogX.Name = "LogX";
-            this.LogX.Size = new System.Drawing.Size(63, 50);
+            this.LogX.Size = new System.Drawing.Size(122, 50);
             this.LogX.TabIndex = 45;
-            this.LogX.Text = "logx";
+            this.LogX.Text = "LogSpecified";
             this.LogX.Click += new System.EventHandler(this.LogX_Click);
             // 
             // Divide
@@ -370,44 +370,44 @@
             // 
             // textBoxA
             // 
-            this.textBoxA.Location = new System.Drawing.Point(378, 154);
+            this.textBoxA.Location = new System.Drawing.Point(566, 80);
             this.textBoxA.Multiline = true;
             this.textBoxA.Name = "textBoxA";
-            this.textBoxA.Size = new System.Drawing.Size(63, 26);
+            this.textBoxA.Size = new System.Drawing.Size(63, 38);
             this.textBoxA.TabIndex = 48;
             // 
             // textBoxB
             // 
-            this.textBoxB.Location = new System.Drawing.Point(378, 180);
+            this.textBoxB.Location = new System.Drawing.Point(566, 130);
             this.textBoxB.Multiline = true;
             this.textBoxB.Name = "textBoxB";
-            this.textBoxB.Size = new System.Drawing.Size(63, 26);
+            this.textBoxB.Size = new System.Drawing.Size(63, 36);
             this.textBoxB.TabIndex = 49;
             // 
             // textBoxC
             // 
-            this.textBoxC.Location = new System.Drawing.Point(378, 204);
+            this.textBoxC.Location = new System.Drawing.Point(566, 180);
             this.textBoxC.Multiline = true;
             this.textBoxC.Name = "textBoxC";
-            this.textBoxC.Size = new System.Drawing.Size(63, 26);
+            this.textBoxC.Size = new System.Drawing.Size(63, 36);
             this.textBoxC.TabIndex = 50;
             // 
             // Description
             // 
             this.Description.AccessibleName = "Description";
             this.Description.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Description.Location = new System.Drawing.Point(378, 80);
+            this.Description.Location = new System.Drawing.Point(500, 80);
             this.Description.Margin = new System.Windows.Forms.Padding(0);
             this.Description.Name = "Description";
-            this.Description.Size = new System.Drawing.Size(63, 74);
+            this.Description.Size = new System.Drawing.Size(63, 150);
             this.Description.TabIndex = 51;
-            this.Description.Text = "a,b,c \\/";
+            this.Description.Text = "a\r\nb\r\nc";
             // 
             // CalculatorGUIForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(441, 230);
+            this.ClientSize = new System.Drawing.Size(630, 230);
             this.Controls.Add(this.Description);
             this.Controls.Add(this.textBoxC);
             this.Controls.Add(this.textBoxB);
